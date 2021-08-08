@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* reusable */
+
+.row {
+    margin: 0 auto;
+}
+
+.heading-main h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #dc4f00;
+    margin: 20px auto;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("C:\Users\LUKAS\Desktop\HTML_CSS\Basics_II\Img\Jidlo.jpg"); /*Linear gradient*/
+    background-size: cover;
+    height: 100vh;
+}
+
+#logo img {
+    width: 100px;
+    position: absolute;
+    top: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:link,
+nav ul li:visited {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: transparent;
+}
+
+nav ul li:hover,
+nav ul li:active {
+    transition: border-bottom 0.15s;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    float: right;
+    margin-top: 35px;
+    padding: 10px;
+    background:  brown;
+    border-left: 2px solid rgb(82, 82, 82);
+    border-top: 2px solid rgb(82, 82, 82);
+    border-bottom: 2px solid rgb(82, 82, 82);
+    border-radius: 10px 0 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.header-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*dá to na střed*/
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 70px;
+    text-transform: uppercase; /*udělá to ze všech písmen velká písmena*/
+    letter-spacing: 1.5px; /*mezera mezi písmeny */
+    word-spacing: 3px; /*mezera mezi slovy*/
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    border: 1px solid #ff7c32;
+    border-radius: 10px;
+    padding: 5px;
+    background: green;
+    margin-top: 10px;
+}
+
+.btn1 {
+    margin-right: 5px;
+}
+
+.btn2 {
+    margin-left: 5px;
+    background: transparent;
+}
+
+.btn1:link,
+.btn1:visited {
+    background: #dc4f00;
+}
+
+.btn1:hover,
+.btn1:active {
+    transition: background 0.5s; /*pomalý přechod*/
+    background: #a93d00;
+}
+
+.btn2:hover,
+.btn2:active {
+    transition: background 0.5s; /*pomalý přechod*/
+    background: rgb(124, 173, 50);
+}
+
+/* Main */
+
+.about-us p {
+    padding: 0 50px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px gray;
+}
+
+.odstavec {
+    margin-bottom: 20px;
+}
+
+.odstavec div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+    float: left;
+}
+
+.odstavec p {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.reference {
+    font-size: 20px;
+}
+
+.reference p {
+    font-style: italic;
+}
+
+.photo-name img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.photo-name {
+    margin: 30px 0;
+}
+
+.photo-name p {
+    padding: 35px;
+    margin-left: 90px;
+}
+
+/* Galery */
+.photos li {
+    background-color: gray;
+    overflow: hidden; /*to so přeteče skryj*/
+    height: 600px;
+    border-radius: 10px;
+}
+
+.photos img {
+    width: 100%;
+    height: 600px;
+    opacity: 0.5; /*přiblížení*/
+    transform: scale(1); /*přiblížení*/
+}
+
+.photos img:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+/* Kontaktní formulář */
+
+.contact-form {
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #aa4309;
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d67e4d;
+    color: #fff;
+    font-size: 20px;
+    transition: background 0.5s;
+}
+
+/* Footer */
+
+.footer-page {
+    background: #aa4309;
+    color: #fff;
+}
+
+.social {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social a:link,
+.social a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.social a:hover,
+.social a:active {
+    color: black;
+    transition: color 0.5s;
+}
+
+.social p {
+    display: inline;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
