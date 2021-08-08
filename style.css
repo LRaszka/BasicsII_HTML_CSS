@@ -27,7 +27,7 @@
 /* Header */
 
 header {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("C:\Users\LUKAS\Desktop\HTML_CSS\Basics_II\Img\Jidlo.jpg"); /*Linear gradient*/
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Img\Jidlo.jpg"); /*Linear gradient*/
     background-size: cover;
     height: 100vh;
 }
@@ -36,6 +36,7 @@ header {
     width: 100px;
     position: absolute;
     top: 2%;
+    padding-left: 10px;
 }
 
 nav ul li {
