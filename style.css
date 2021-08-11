@@ -208,7 +208,7 @@ main img {
 /* Kontaktní formulář */
 
 .contact-form {
-    width: 300px;
+    max-width: 500px;
     margin: 0px auto;
     margin-bottom: 20px;
 }
