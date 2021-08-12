@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1100px){
+
+    .photos .col {
+        margin-left: 0;
+    }
+
+    .photos li {
+        width: 100%;
+    }
+}
+
+/* @media only screen and (max-width: 1565px){
+
+    .col span-1-of-3.one-reference {
+        width: 49%;
+    }
+
+    .one-reference:nth-child(3) {
+        display: none;
+    }
+} */
+
+@media only screen and (max-width: 1830px){
+
+    .food .span-1-of-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
