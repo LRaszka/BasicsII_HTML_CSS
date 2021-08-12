@@ -60,7 +60,7 @@ nav ul li:active {
 nav ul {
     float: right;
     margin-top: 35px;
-    padding: 10px;
+    padding: 6px;
     background:  brown;
     border-left: 2px solid rgb(82, 82, 82);
     border-top: 2px solid rgb(82, 82, 82);
