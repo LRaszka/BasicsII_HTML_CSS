@@ -21,5 +21,13 @@
             $("html, body").animate({scrollTop: $(".jq--form").offset().top}, 900);
         });
 
+        $(".jq--scroll-button1").click(function(){
+            $("html, body").animate({scrollTop: $(".jq--our-food").offset().top}, 900);
+        });
+
+        $(".jq--scroll-button2").click(function(){
+            $("html, body").animate({scrollTop: $(".jq--form").offset().top}, 900);
+        });
+
     });
 })(jQuery);
