@@ -29,5 +29,10 @@
             $("html, body").animate({scrollTop: $(".jq--form").offset().top}, 900);
         });
 
+        // Mobile navigation
+        $(".jq--nav-icon").click(function(){
+            $("nav ul").fadeToggle();
+        });
+
     });
 })(jQuery);

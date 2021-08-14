@@ -13,7 +13,7 @@
 .heading-main h2 {
     text-align: center;
     font-size: 30px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .heading-main h2:after {
@@ -22,6 +22,17 @@
     width: 150px;
     border-bottom: 2px solid #dc4f00;
     margin: 20px auto;
+}
+
+/* .empty-space {
+    height: 50px;
+} */
+
+/* Mobile navigation */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 35px;
+    display: none;
 }
 
 /* Header */
@@ -65,7 +76,10 @@ nav ul {
     border-left: 2px solid rgb(82, 82, 82);
     border-top: 2px solid rgb(82, 82, 82);
     border-bottom: 2px solid rgb(82, 82, 82);
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px;
+    position: fixed;
+    margin-left: 62.5%;
+    z-index: 1;
 }
 
 nav ul li a {

@@ -29,4 +29,45 @@
 
 }
 
+@media only screen and (max-width: 900px){
+
+    nav ul {
+        position: fixed;
+        right: 15%;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        position: fixed;
+        right: 2%;
+    }
+
+}
+
+@media only screen and (max-width: 1655px){
+
+    nav ul {
+        position: fixed;
+        right: 8%;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        position: fixed;
+        right: 2%;
+    }
+
+}
+
+
+
 
