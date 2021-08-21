@@ -38,7 +38,7 @@
 /* Header */
 
 header {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Img\Jidlo.jpg"); /*Linear gradient*/
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Img/Jidlo.jpg"); /*Linear gradient*/
     background-size: cover;
     height: 100vh;
 }
@@ -96,6 +96,7 @@ nav ul li a {
     left: 50%;
     transform: translate(-50%,-50%); /*dá to na střed*/
     text-align: center;
+    color: #fff;
 }
 
 .header-text h1 {
